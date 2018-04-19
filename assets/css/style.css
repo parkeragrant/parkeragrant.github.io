@@ -32,9 +32,9 @@ h1, h2, h3 {
 
 h1 {
     font-size: 30px;
-    line-height: 80px;
+    line-height: 10px;
     border-bottom: 3px solid #ddd;
-    /* padding-bottom: 20px; */
+    padding-bottom: 30px;
 }
 
 h2, h3 {
@@ -90,7 +90,7 @@ nav a:first-child {
 /* main */
 
 #main-container {
-    padding-top: 130px;
+    padding-top: 80px;
 }
 
 .container-02 {
@@ -111,6 +111,15 @@ nav a:first-child {
     margin-right: 25px;
 }
 
+#profile_pic {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    padding-bottom: 14px;
+    padding-right: 18px;
+}
+
 /* sidebar */
 
 .sidebar {
@@ -125,7 +134,7 @@ nav a:first-child {
 
 h3, .sidebar, h2 {
     border-bottom: 2px solid #eee;
-    padding-bottom: 20px;
+    padding-bottom: 27px;
     margin-bottom: 15px;
     line-height: 22px;
 }
