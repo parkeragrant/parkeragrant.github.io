@@ -3,16 +3,15 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-
     <script src="main.js"></script>
 </head>
 <body>
-    <header id="masterhead">
-        <div class="container-01">
+    <header id="masthead">
+        <div class="container">
             <a href="index.html" id="logo">Parker Grant</a>
                 <nav>
                     <a href="index.html" id="about">About</a>
@@ -22,46 +21,47 @@
         </div>
     </header>
 
-<div id="main-container" class="container">
-    <section class="container-02">
-        <h1>Contact</h1>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
 
-        <form id="main-container" class="container">
-            <ul>
-                <li>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name"
-                    placeholder="Your Name" required="required">
-                </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email"
-                    placeholder="example@gmail.com" required="required">
-                </li>
-                <li>
-                    <label for="message">Message</label>
-                    <textarea type="text" name="message" id="message"
-                    required="required"></textarea>
-                </li>
-            </ul>
-            <input type="submit" name="submit">
-        </form>
+            <form id="contact-form" class="container">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name"
+                        placeholder="Your Name" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email"
+                        placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea type="text" name="message" id="message"
+                        required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+            </form>
 
-    </section>
-    <section class="sidebar">
-        <div id="connect">
-            <h2>Connect with Me</h2>
+        </section>
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Drop A Line</h2>
 
-            <img src="http://via.placeholder.com/100x100" class="social" alt="github">
-            <img src="http://via.placeholder.com/100x100" class="social" alt="linkedin">
-            <img src="http://via.placeholder.com/100x100" class="social" alt="stack_overflow">
-        </div>
-    </section>
-</div>     
-    <footer>
-        <div class="container">
-            &copy; Copyright 2018
-        </div>
-</footer>
+                <img src="assets/images/github-logo.png" class="social" alt="github">
+                <img src="assets/images/linkedin.png" class="social" alt="linkedin">
+                <img src="assets/images/stack-overflow.png" class="social" alt="stack_overflow">
+            </div>
+        </section>
+    </div>   
+
+    <footer class="footer-01">
+            <div class="container">
+                &copy; Copyright 2018
+            </div>
+    </footer>
 </body>
 </html>
